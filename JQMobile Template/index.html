@@ -59,26 +59,36 @@
              </div><!-- /navbar -->
          </div><!--/footer-->    
      </div>
-       <div data-role="page" id="about" data-add-back-btn="true" >
+  <!--     <div data-role="page" id="about" data-add-back-btn="true" >
 	   <div data-role="page" id="bronze" data-add-back-btn="true" >
-     </div>
+     </div> -->
 
      <!-- Start of first page About Page-->
-<div data-role="page" id="about">
+<div data-role="page" id="about" data-add-back-btn="true" >
 
-	<div data-role="header">
+	<div data-role="header" data-position="fixed">
 		<h1>About Page</h1>
 	</div><!-- /header -->
 
-	<div data-role="content">	
-		<p>I'm first in the source order so I'm shown as the page.</p>		
-		<p>View internal page called <a href="#home">index</a></p>	
+	<div data-role="content">
+		<p>My Love Tracker is a fun app made to keep track of all your relationships special moments.
+		<p>App created by: Bernice A Johnson</p>		
+		<p>Contact by email: bernicejohnson@fullsail.edu</p>
+		<p>Puppy Love Illustration comp on the home page found at istockphoto.com</p>
+		<p>copy right 2012</p>
 	</div><!-- /content -->
 
-	<div data-role="footer">
-		<h4>Page Footer</h4>
-	</div><!-- /footer -->
-</div><!-- /page -->
+	<div data-role="footer" data-position="fixed">
+		<div data-role="navbar">
+	             <ul>
+		            <li><a href="#home" data-icon="home">Home</a></li>
+		            <li><a href="#" data-icon="star">Gold App</a></li>
+		            <li><a href="#" data-icon="grid">Bronze App</a></li>
+		            <li><a href="#home" data-icon="info">Git Links</a></li>
+	              </ul>
+             </div><!-- /navbar -->
+         </div><!--/footer-->    
+     </div>
 
 <!-- Start of second page -->
 <div data-role="page" id="bronze">
@@ -134,16 +144,16 @@
 <!-- Start of First Kiss-->
 <div data-role="page" id="kiss">
 
-	<div data-role="header">
+	<div data-role="header" data-position="fixed">
 		<h1>First Kiss</h1>
 	</div><!-- /header -->
 
 	<div data-role="content">	
-		<p>I'm the second in the source order so I'm hidden when the page loads. I'm just shown if a link that references my id is beeing clicked.</p>		
+		<p>Want to remember your first smooch? Look here!</p>		
 		<p><a href="#home">Back to home</a></p>	
 	</div><!-- /content -->
 
-	<div data-role="footer">
+	<div data-role="footer" data-position="fixed">
 		<h4>Page Footer</h4>
 	</div><!-- /footer -->
 </div><!-- /page -->
